@@ -1,43 +1,44 @@
-body{
-	font-family: Verdana, sans-serif;
-	font-size: 15px;
-	line-height: 1.5;
+body {
+  font-family: Verdana, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
 }
-body::before{
-	box-sizing: inherit;
+body::before {
+  box-sizing: inherit;
 }
-body::after{
-	box-sizing: inherit;
+body::after {
+  box-sizing: inherit;
 }
-nav{
-	letter-spacing: 1.5px;
+nav {
+  letter-spacing: 1.5px;
 }
-.navbar-brand{
-	color: black;
+.navbar-brand {
+  color: black;
 }
-.navbar-nav a{
-	color: black;
+.navbar-nav a {
+  color: black;
 }
-.p-3{
-	opacity: 90%;
+.p-3 {
+  opacity: 90%;
 }
-.btn i{
-	font-family: italic;
+.btn i {
+  font-family: italic;
 }
-footer{
-	padding-top: 16px;
-	padding-bottom: 16px;
-	width: 100%;
+footer {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  width: 100%;
 }
-footer .text-white{
-	margin-bottom: 15px;
-	margin-top: 15px;
+footer .text-white {
+  margin-bottom: 15px;
+  margin-top: 15px;
 }
 
 @media screen and (max-width: 600px) {
-	.navbar-nav {display : none;}
+  .navbar-nav {
+    display: none;
+  }
+  .text-white {
+    display: none;
+  }
 }
-@media screen and (max-width: 600px){
-	.text-muted {display: none;}
-}
-
